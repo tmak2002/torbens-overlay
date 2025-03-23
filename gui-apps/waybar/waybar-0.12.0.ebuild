@@ -52,7 +52,7 @@ DEPEND="${RDEPEND}
 	>=dev-libs/spdlog-1.10.0:=
 	dev-libs/wayland
 	dev-libs/wayland-protocols
-	>=gui-libs/gtk-layer-shell-0.6.0
+	>=gui-libs/gtk-layer-shell-0.9.0
 	gui-libs/wlroots:=
 	x11-libs/libxkbcommon
 	test? ( dev-cpp/catch:0 )
