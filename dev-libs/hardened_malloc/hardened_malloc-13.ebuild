@@ -21,4 +21,5 @@ src_install() {
     dolib.so out-light/libhardened_malloc-light.so
   else
     dolib.so out/libhardened_malloc.so
+  fi
 }
