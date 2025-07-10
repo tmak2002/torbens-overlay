@@ -13,7 +13,11 @@ KEYWORDS="~amd64"
 IUSE="light"
 
 src_compile() {
-  emake $(usex light VARIANT=light)
+  if use light; then
+      emake VARIANT=light
+  else
+      emake VARIANT=default
+  fi
 }
 
 src_install() {
